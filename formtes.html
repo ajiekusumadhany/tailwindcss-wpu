@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // github: omar-bakhsh
+          alert("send_msg_to_unknowing_number")
+        function send_handle(){
+        
+          let message= document.getElementById("message").value;
+
+          let email= document.getElementById("email").value;
+        
+            let nama= document.getElementById("nama").value;
+          
+          var win = window.open(`https://wa.me/6282241929544?text=Nama:%20${nama}%0AEmail:%20${email}%0APesan:%20${message}`, '_blank');
+         // win.focus();
+        }
+        </script>
+        
+        
+                <div>
+                  <h3>whatsapp send app </h3>
+                    <h6>add number without space like 17272912606 not <strike>+1 (727) 2912606 </strike></h6>
+           <input id="nama" type="text" placeholder="name" >
+           <input id="email" type="text" placeholder="email" >
+           <input id="message" type="text" placeholder="type msg" >
+        <button onclick="send_handle()">send</button>
+        
+
+</body>
+
+</html>

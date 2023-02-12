@@ -62,7 +62,7 @@
     </header>
     <!-- Header End -->
     <!-- Hero Section Start -->
-    <section id="home" class="pt-36">
+    <section id="home" class="bg-white pt-36 lg:px-8">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2">
@@ -98,7 +98,7 @@
     </section>
     <!-- Hero Section End -->
     <!-- About Section Start -->
-    <section id="tentang" class="pt-36 pb-32">
+    <section id="tentang" class="bg-white pt-36 pb-32 lg:px-8">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-10 lg:w-1/2">
@@ -180,9 +180,38 @@
         </div>
     </section>
     <!-- About Section End -->
+    <!-- Hobbi Section Start -->
+    <section id="hobby" class="pt-32 pb-32 bg-slate-100 lg:px-8">
+        <div class="container">
+
+            <div class="flex flex-wrap">
+                <div class="w-full px-8 lg:w-1/2 xl:w-1/4">
+                    <div class="bg-white rounded-xl shadow-lg oferflow-hidden mb-10">
+                        <img src="dist/img/nulis.jpg" alt="Nulis" class="w-full rounded-3xl">
+                    </div>
+                </div>
+                <div class="w-full px-8 lg:w-1/2 xl:w-1/4">
+                    <div class="bg-white rounded-xl shadow-lg oferflow-hidden mb-10">
+                        <img src="dist/img/coding.jpg" alt="Coding" class="w-full rounded-3xl">
+                    </div>
+                </div>
+                <div class="w-full px-8 lg:w-1/2 xl:w-1/4">
+                    <div class="bg-white rounded-xl shadow-lg oferflow-hidden mb-10">
+                        <img src="dist/img/baca.jpg" alt=" Baca" class="w-full rounded-3xl">
+                    </div>
+                </div>
+                <div class="w-full px-8 lg:w-1/2 xl:w-1/4">
+                    <div class="bg-white rounded-xl shadow-lg oferflow-hidden mb-10">
+                        <img src="dist/img/game.jpg" alt="Game" class="w-full rounded-3xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hobbi Section End -->
 
     <!-- Blog Section Start -->
-    <section id="blog" class="pt-36 pb-32 bg-slate-100">
+    <section id="blog" class="pt-20 pb-32 bg-white lg:px-8">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
@@ -190,14 +219,14 @@
                     <h2 class="font-semibold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Tulisanku</h2>
                     <p class="font-medium text-md text-secondary md:text-lg">
                         Berikut adalah beberapa tulisan yang saya tulis, baca artikel lainnya di <a
-                            href="https://ajiekusumadhany.com/blog" class="text-primary">ajiekusumadhany.com/blog</a>
+                            href="https://blog.ajiekusumadhany.me" class="text-primary">blog.ajiekusumadhany.me</a>
                     </p>
                 </div>
             </div>
             <div class="flex flex-wrap">
                 <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
                     <div class="bg-white rounded-xl shadow-lg oferflow-hidden mb-10">
-                        <img src="dist/img/sistem-basis-data.png" alt="Programming" class="w-full">
+                        <img src="https://source.unsplash.com/random/1000x500" alt=" Programming" class="w-full">
                         <div class="py-8 px-6">
                             <h3>
                                 <a href="#"
@@ -214,7 +243,7 @@
                 </div>
                 <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
                     <div class="bg-white rounded-xl shadow-lg oferflow-hidden mb-10">
-                        <img src="dist/img/struktur-data.png" alt="Programming" class="w-full">
+                        <img src="https://source.unsplash.com/random/1000x500" alt="Programming" class="w-full">
                         <div class="py-8 px-6">
                             <h3>
                                 <a href="#"
@@ -231,7 +260,7 @@
                 </div>
                 <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
                     <div class="bg-white rounded-xl shadow-lg oferflow-hidden mb-10">
-                        <img src="dist/img/sistem-informasi.png" alt="Programming" class="w-full">
+                        <img src="https://source.unsplash.com/random/1000x500" alt="Programming" class="w-full">
                         <div class="py-8 px-6">
                             <h3>
                                 <a href="#"
@@ -251,8 +280,49 @@
     </section>
     <!-- Blog Section End -->
 
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+                    <h2 class="font-semibold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi Saya</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">
+                        Ada pertanyaan? anda dapat menghubungi saya lewat form dibawah, saya akan membalas sesegera
+                        mungkin
+                    </p>
+                </div>
+            </div>
+            <form>
+                <div class="w-full lg:w-2/3 lg:mx-auto">
+                    <div class="w-full px-4 mb-8">
+                        <label for="nama" class="text-base font-bold text-primary">Nama</label>
+                        <input type="text" id="nama"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-0 focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="email" class="text-base font-bold text-primary">Email</label>
+                        <input type="text" id="email"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-0 focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="message" class="text-base font-bold text-primary">Pesan</label>
+                        <textarea type="message" id="message"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-0 focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+                    </div>
+                    <div class="w-full px-4">
+                        <button
+                            class="bg-primary text-base font-semibold text-white py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500"
+                            onclick="kirim()">Kirim</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
     <!-- Footer Start -->
-    <footer class="bg-white pb-6">
+    <footer class="bg-footer pb-6">
         <div class="container">
             <div class="flex flex-wrap">
             </div>
@@ -292,7 +362,8 @@
             <div class="w-full pt-3 border-slate-500">
                 <div class="flex items-center justify-center mb-5">
                 </div>
-                <p class="font-medium text-sm text-slate-500 text-center">&copy Ajie Kusumadhany - Dibuat di Kudus,
+                <p class="font-medium text-sm text-slate-500 text-center">&copy <span class="text-primary">Ajie
+                        Kusumadhany</span> - Dibuat di Kudus,
                     Indonesia. </p>
             </div>
         </div>
